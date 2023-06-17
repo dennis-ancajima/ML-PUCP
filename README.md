@@ -1,9 +1,9 @@
 # ML-PUCP
 En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
 
-1.- Se esta considerando como referencia le paper Obesity Level Estimation based on Machine Learning Methods and Artificial Neural Networks.
+1.- Se esta considerando como referencia el paper Obesity Level Estimation based on Machine Learning Methods and Artificial Neural Networks.
   Los integrantes del paper consideran los siguientes pasos para el entrenamiento del dataset:
-   - No se especifica la limpieza de data, por ejemplo que involucre eliminar data eliminada. Se realiza el entrenamiento con los 2111 datos.
+   - No se especifica limpieza de data, por ejemplo que involucre eliminar data duplicada. Se realiza el entrenamiento con los 2111 datos.
    - Se usa un K=10 para examinar los resultados de la prueba.
    - Aplican la aliminacion Backward para eliminar la data irrelavante.
    - Luego de usar eliminacion Backward, proceden a eliminar las siguientes categorias: "CALC", "MTRANS", "FCVC" y "FAMILY_HISTORY".
@@ -16,6 +16,8 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
   pero los resultados no fueron los esperados. Obtuvimos un accuracy de 88.8%, se realizaron los mismo pasos mencionados en el punto 1.
   Consideremos que para este entrenamiento se uso Colab de Google.
   En el siguiente notebook, se muestran las evidencias con el entrenamiento realizado, teniendo como referencia la linea base del paper.
-  
+
+2. Casos experimentados:
+   2.1. Entrenamiento del dataset considerando 
   
   
