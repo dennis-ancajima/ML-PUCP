@@ -18,6 +18,9 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
   En el siguiente notebook, se muestran las evidencias con el entrenamiento realizado, teniendo como referencia la linea base del paper.
 
 2. Casos experimentados:
-   2.1. Entrenamiento del dataset considerando 
+   2.1. Entrenamiento del dataset considerando
+
+3. prueba edición raul
+
   
   
