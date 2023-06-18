@@ -42,20 +42,26 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
   - Redes Neuronales
     
 2.3.1. Entrenamiento solo con 12 atributos, sin IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook01].
+
 2.3.2. Entrenamiento solo con 12 arributos, sin IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook02].
+
 2.3.3. Entrenamiento solo con 12 arributos, con IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook03].
+
 2.3.4. Entrenamiento solo con 12 arributos, con IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook04].
 
 En la siguiente grafica se muestran los entrenamientos que se han realizado desde 2.3.1 hasta 2.3.4.
 
-    ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/96cba719-bb3e-4978-b2eb-c5d1dfebe183)
+  ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/96cba719-bb3e-4978-b2eb-c5d1dfebe183)
 
 
 2.3.5. Entrenamiento solo con 17 atributos, sin IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook05].
+
 2.3.6. Entrenamiento solo con 17 arributos, sin IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook06].
+
 2.3.7. Entrenamiento solo con 17 arributos, con IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook07].
+
 2.3.8. Entrenamiento solo con 17 arributos, con IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook08].
 
 En la siguiente grafica se muestran los entrenamientos que se han realizado desde 2.3.5 hasta 2.3.8.
 
-    ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/03a1ba46-2f43-43a4-8607-a4791033b97d)
+  ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/03a1ba46-2f43-43a4-8607-a4791033b97d)
