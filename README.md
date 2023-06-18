@@ -1,7 +1,7 @@
 # ML-PUCP
 En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
 
-1. ## Caso Paper:
+## 1. Caso Paper:
   Se esta considerando como referencia el paper Obesity Level Estimation based on Machine Learning Methods and Artificial Neural Networks.
   Los integrantes del paper consideran los siguientes pasos para el entrenamiento del dataset:
    - No se especifica limpieza de data, por ejemplo que involucre eliminar data duplicada. Se realiza el entrenamiento con los 2111 datos.
@@ -18,19 +18,21 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
   Consideremos que para este entrenamiento se uso Colab de Google.
   En el siguiente notebook, se muestran las evidencias con el entrenamiento realizado, teniendo como referencia la linea base del paper.
 
-2. ## Casos experimentados:
+## 2. Casos experimentados:
 2.1. Entrenamiento del dataset considerando Seleccion y extraccion de caracteristicas por filtrado [link], para este caso se consideran los siguientes pasor:
    - Limpieza de datos: Solo se valida que xisten 24 datos repetidos, en este caso no se considera la eliminacion de estos datos.
    - Se aplica LabelEncoder para las variables categoricas: CAEC, CALC, MTRANS, FAVC, SMOKE, SCC, family_history_with_overweight, Gender, NObeyesdad.
    - Se aplica Seleccion y Extraccion de Caracteristicas por Filtrado.
    - Se valido que las variables con bajo score son SMOKE, FAVC, SCC, MTRANS, se procede a dropear.
    - Se realiza el entrenamiento de los 12 atributos usando Ensamble con los siguientes estimadores: Random Forest, SVM Cubic, Arboles de Decision, k-NN y SVM de kernel gaussiano.
+
 2.2. Entrenamiento del dataset considerando Selección de características por wrapping - Backward elimination [link], para este caso se consideran los siguientes pasor:
    - Limpieza de datos: Solo se valida que xisten 24 datos repetidos, en este caso no se considera la eliminacion de estos datos.
    - Se aplica LabelEncoder para las variables categoricas: CAEC, CALC, MTRANS, FAVC, SMOKE, SCC, family_history_with_overweight, Gender, NObeyesdad.
    - Se aplica Seleccion y Extraccion de Caracteristicas por Filtrado.
    - Se valido que las variables con bajo score son [ ingresar la data faltante ], se procede a dropear.
    - Se realiza el entrenamiento de los 12 atributos usando Ensamble con los siguientes estimadores: Random Forest, SVM Cubic, Arboles de Decision, k-NN y SVM de kernel gaussiano.
+
 2.3. Entrenamiento usando el Ensamble, y como parte de ello se usa en algunos casos una nueva variable llamada IMC (Indice de Masa Corporal), para este metodo usamos los siguientes estimadores como parte del entrenamiento:
      Estimadores:
      - Random Forest
