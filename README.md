@@ -1,7 +1,7 @@
 # ML-PUCP
 En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
 
-1.- Se esta considerando como referencia el paper Obesity Level Estimation based on Machine Learning Methods and Artificial Neural Networks.
+1. Se esta considerando como referencia el paper Obesity Level Estimation based on Machine Learning Methods and Artificial Neural Networks.
   Los integrantes del paper consideran los siguientes pasos para el entrenamiento del dataset:
    - No se especifica limpieza de data, por ejemplo que involucre eliminar data duplicada. Se realiza el entrenamiento con los 2111 datos.
    - Se usa un K=10 para examinar los resultados de la prueba.
