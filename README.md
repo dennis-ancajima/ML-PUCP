@@ -34,6 +34,7 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
    - Se realiza el entrenamiento de los 12 atributos usando Ensamble con los siguientes estimadores: Random Forest, SVM Cubic, Arboles de Decision, k-NN y SVM de kernel gaussiano.
 
 2.3. Entrenamiento usando el Ensamble, y como parte de ello se usa en algunos casos una nueva variable llamada IMC (Indice de Masa Corporal), para este metodo usamos los siguientes estimadores como parte del entrenamiento:
+
      Estimadores:
      - Random Forest
      - SVM Cubic
