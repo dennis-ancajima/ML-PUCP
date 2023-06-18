@@ -65,10 +65,3 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
     En la siguiente grafica se muestran los entrenamientos que se han realizado desde 2.3.5 hasta 2.3.8.
 
     ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/03a1ba46-2f43-43a4-8607-a4791033b97d)
-
-
-    
-4. prueba edición raul
-
-  
-  
