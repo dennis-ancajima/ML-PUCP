@@ -18,9 +18,46 @@ En este repositorio se esta adjuntando diferentes tipos de entrenamiento.
   En el siguiente notebook, se muestran las evidencias con el entrenamiento realizado, teniendo como referencia la linea base del paper.
 
 2. Casos experimentados:
-   2.1. Entrenamiento del dataset considerando
+   2.1. Entrenamiento del dataset considerando Seleccion y extraccion de caracteristicas por filtrado [link], para este caso se consideran los siguientes pasor:
+   - Limpieza de datos: Solo se valida que xisten 24 datos repetidos, en este caso no se considera la eliminacion de estos datos.
+   - Se aplica LabelEncoder para las variables categoricas: CAEC, CALC, MTRANS, FAVC, SMOKE, SCC, family_history_with_overweight, Gender, NObeyesdad.
+   - Se aplica Seleccion y Extraccion de Caracteristicas por Filtrado.
+   - Se valido que las variables con bajo score son SMOKE, FAVC, SCC, MTRANS, se procede a dropear.
+   - Se realiza el entrenamiento de los 12 atributos usando Ensamble con los siguientes estimadores: Random Forest, SVM Cubic, Arboles de Decision, k-NN y SVM de kernel gaussiano.
+   2.2. Entrenamiento del dataset considerando Selección de características por wrapping - Backward elimination [link], para este caso se consideran los siguientes pasor:
+   - Limpieza de datos: Solo se valida que xisten 24 datos repetidos, en este caso no se considera la eliminacion de estos datos.
+   - Se aplica LabelEncoder para las variables categoricas: CAEC, CALC, MTRANS, FAVC, SMOKE, SCC, family_history_with_overweight, Gender, NObeyesdad.
+   - Se aplica Seleccion y Extraccion de Caracteristicas por Filtrado.
+   - Se valido que las variables con bajo score son [ ingresar la data faltante ], se procede a dropear.
+   - Se realiza el entrenamiento de los 12 atributos usando Ensamble con los siguientes estimadores: Random Forest, SVM Cubic, Arboles de Decision, k-NN y SVM de kernel gaussiano.
+   2.3. Entrenamiento usando el Ensamble, y como parte de ello se usa en algunos casos una nueva variable llamada IMC (Indice de Masa Corporal), para este metodo usamos los siguientes estimadores como parte del entrenamiento:
+     Estimadores:
+     - Random Forest
+     - SVM Cubic
+     - Arbol de Decision
+     - SVM de Kernel Gausiano
+     - Redes Neuronales
+    2.3.1. Entrenamiento solo con 12 atributos, sin IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook01].
+    2.3.2. Entrenamiento solo con 12 arributos, sin IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook02].
+    2.3.3. Entrenamiento solo con 12 arributos, con IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook03].
+    2.3.4. Entrenamiento solo con 12 arributos, con IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook04].
 
-3. prueba edición raul
+    En la siguiente grafica se muestran los entrenamientos que se han realizado desde 2.3.1 hasta 2.3.4.
+
+    ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/96cba719-bb3e-4978-b2eb-c5d1dfebe183)
+
+
+    2.3.5. Entrenamiento solo con 17 atributos, sin IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook05].
+    2.3.6. Entrenamiento solo con 17 arributos, sin IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook06].
+    2.3.7. Entrenamiento solo con 17 arributos, con IMC, para análisis de estraccion de caracteristicas usamos Dummies [NoteBook07].
+    2.3.8. Entrenamiento solo con 17 arributos, con IMC, para análisis de estraccion de caracteristicas usamos LabelEncoder [NoteBook08].
+
+    En la siguiente grafica se muestran los entrenamientos que se han realizado desde 2.3.5 hasta 2.3.8.
+
+    ![imagen](https://github.com/dennis-ancajima/ML-PUCP/assets/91444130/c78c6020-790b-47ac-bec5-6de7923deeab)
+
+    
+4. prueba edición raul
 
   
   
