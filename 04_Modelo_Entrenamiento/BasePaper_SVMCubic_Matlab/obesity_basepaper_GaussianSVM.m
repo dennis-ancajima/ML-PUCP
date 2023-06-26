@@ -67,3 +67,14 @@ meanAccuracy = mean(accuracy);  % Calcular la exactitud promedio
 disp(['Exactitud promedio con validación cruzada (Árbol de decisión): ', num2str(meanAccuracy*100), '%']);
 
 % Acurracy = 0.8194
+
+
+%% Referencias:
+% El codigo implementado ha sido elaborado bajo las recomendaciones y
+% ejemplos de la siguiente documentacion:
+
+% https://www.mathworks.com/matlabcentral/answers/473459-data-partition-using-cvpartition_-warning
+% https://stackoverflow.com/questions/23904179/calculate-cross-validation-for-generalized-linear-model-in-matlab
+% https://www.mathworks.com/help/stats/fitcecoc.html
+% https://www.mathworks.com/help/stats/grp2idx.html#d124e503594
+% https://www.mathworks.com/help/matlab/ref/double.normalize.html
